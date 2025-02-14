@@ -28,6 +28,7 @@ class AlbumListFragment : Fragment() {
             onFavoriteClick = { updatedAlbum -> viewModel.updateFavorite(updatedAlbum) })
     }
 
+
     private var favoritesFilter = false
     private var fullAlbumList: List<Album> = emptyList()
 
